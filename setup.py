@@ -12,7 +12,9 @@ setup(
     include_package_data=True,
     python_requires='>=3.6',
     install_requires=[
-        'Pillow>=5.3.0'
+        'Pillow>=5.3.0',
+        'ffmpeg-python',
+        'tqdm',
     ],
     entry_points={
         'console_scripts': [
